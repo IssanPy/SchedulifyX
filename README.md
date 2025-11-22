@@ -1,8 +1,6 @@
 # SchedulifyX
 
-SchedulifyX is a lightweight appointment booking system aimed at clinics, coaches, salons and other service businesses. Built with Flask for rapid delivery and easy deployment. Includes simple service management, booking form, and a minimal admin interface to view/confirm appointments.
-
-![SchedulifyX UI](/mnt/data/A_screenshot_of_a_code_editor_displays_a_dark-them.png)
+SchedulifyX is a lightweight appointment booking system aimed at clinics, coaches, salons and other service businesses. Built with Flask for rapid delivery and easy deployment. Includes simple service management, booking form, and a minimal admin interface to view/confirm appointments
 
 ## Features
 - Service listing and service-based bookings.
