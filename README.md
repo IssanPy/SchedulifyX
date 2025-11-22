@@ -1,22 +1,14 @@
-# SchedulifyX
+Demo: Appointment Booking System
 
-SchedulifyX is a lightweight appointment booking system aimed at clinics, coaches, salons and other service businesses. Built with Flask for rapid delivery and easy deployment. Includes simple service management, booking form, and a minimal admin interface to view/confirm appointments
+1) Create and activate venv:
+   python3 -m venv venv
+   source venv/bin/activate   # Windows: venv\Scripts\activate
 
-## Features
-- Service listing and service-based bookings.
-- Booking form with date/time input.
-- Simple appointment model with status (pending / confirmed / cancelled).
-- Minimal admin CLI commands to seed data and create admin/creator users.
-- Zero-config local DB using SQLite (easy to migrate to PostgreSQL).
-- Mobile-responsive UI using Bootstrap.
+2) Install:
+   pip install -r requirements.txt
 
-## Tech stack
-- Python 3.10+
-- Flask
-- Flask-SQLAlchemy
-- Flask-WTF (forms & validation)
-- Bootstrap 5 (frontend)
-- SQLite (default, file-based DB)
+3) Run:
+   python app.py
 
-## Quick start (local)
-```bash
+4) Open http://127.0.0.1:5000
+5) Run: flask seed to create sample services
